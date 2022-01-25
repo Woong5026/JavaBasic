@@ -1,0 +1,32 @@
+```java
+
+        int i = 10; // 단순대입 연산자
+        int j = 10;
+
+        System.out.println(i == j); // true
+        System.out.println(i != j); // false
+        System.out.println(i < j); false
+        System.out.println(i <= j); true
+        System.out.println(i > j); false
+        System.out.println(i >= j); true
+
+```
+
+- 단순 대입 연산자
+
+i = 10 , 오른쪽에 있는 피연산자의 값을 왼쪽 피연산자의 변수에 저장
+
+- 복합 대입 연산자
+
+정해진 연산을 수행한 후에 결과를 대입
+
+
+```java
+
+    i += 10; // i = i + 10;  과 같은 의미 
+
+    System.out.println(i); // 20
+    System.out.println(i -=5); // 15 , 기존 값인 20 에 -5 
+    System.out.println(i); // 15
+
+```
